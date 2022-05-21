@@ -42,7 +42,7 @@ async function getQuotesFromAPI() {
 
 
     } catch (error) {
-        showQuoteInDom();
+        getQuotesFromAPI();
     }
     screenLoaded();
 }
